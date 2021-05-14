@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.AmazonTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.051 s <<< FAILURE! - in testRunner.AmazonTest
+Amazon Footer Link Section(Home Page)  Time elapsed: 0.05 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user gets all Amazon services links] is defined with 1 parameters at 'stepDefinitions.AmazonHomePage.user_gets_all_amazon_services_links(io.cucumber.datatable.DataTable)'.
+However, the gherkin step has 0 arguments.
+Step text: user gets all Amazon services links
+

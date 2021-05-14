@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-14T18:55:46.835Z",
+        "line": 4,
+        "name": "Booking Cab Sedan",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-sedan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to select a car type \"sedan\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selects car \"sedan\" and pick up point \"San Ramon\" and drop off location \"Dublin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"San Ramon\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Dublin\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_off_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User pays 10 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-14T18:55:46.847Z",
+        "line": 12,
+        "name": "Booking Cab SUV",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-suv",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User wants to select a car type \"sedan\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User selects car \"sedan\" and pick up point \"San Ramon\" and drop off location \"Pleasontan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"San Ramon\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Pleasontan\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_off_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User pays 10 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-14T18:55:46.872Z",
+        "line": 21,
+        "name": "Booking Cab for Mini",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-for-mini",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User wants to select a car type \"sedan\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_wants_to_select_a_car_type_from_uber_app(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User selects car \"sedan\" and pick up point \"San Ramon\" and drop off location \"SFO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sedan\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"San Ramon\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"SFO\"",
+                  "offset": 77
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_off_location(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "stepDefinitions.UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User pays 50 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.UberBookingSteps.user_pays_usd(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Prod"
+          }
+        ]
+      }
+    ],
+    "name": "Uber Booking Feature",
+    "description": "",
+    "id": "uber-booking-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/appFeatures/Uber.feature",
+    "tags": []
+  }
+]
