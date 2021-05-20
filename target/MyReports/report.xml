@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.055">
-    <testcase classname="Uber Booking Feature" name="Booking Cab Sedan" time="0.004">
-        <system-out><![CDATA[Given User wants to select a car type "sedan" from uber application.........passed
-When User selects car "sedan" and pick up point "San Ramon" and drop off location "Dublin".passed
-Then Driver starts the journey..............................................passed
-And Driver ends the journey.................................................passed
-Then User pays 10 USD.......................................................passed
-]]></system-out>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.355">
+    <testcase classname="User Registration" name="user registration with different data" time="0.085">
+        <system-out>
+            <![CDATA[Given User is on registration page..........................................passed
+When User enters following user details.....................................passed
+Then User registration shuld be successful..................................passed
+]]>
+        </system-out>
     </testcase>
-    <testcase classname="Uber Booking Feature" name="Booking Cab SUV" time="0.003">
-        <system-out><![CDATA[Given User wants to select a car type "sedan" from uber application.........passed
-When User selects car "sedan" and pick up point "San Ramon" and drop off location "Pleasontan".passed
-Then Driver starts the journey..............................................passed
-And Driver ends the journey.................................................passed
-Then User pays 10 USD.......................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Uber Booking Feature" name="Booking Cab for Mini" time="0.002">
-        <system-out><![CDATA[Given User wants to select a car type "sedan" from uber application.........passed
-When User selects car "sedan" and pick up point "San Ramon" and drop off location "SFO".passed
-Then Driver starts the journey..............................................passed
-And Driver ends the journey.................................................passed
-Then User pays 50 USD.......................................................passed
-]]></system-out>
+    <testcase classname="User Registration" name="user registration with different data with columns" time="0.005">
+        <system-out>
+            <![CDATA[Given User is on registration page..........................................passed
+When User enters following user details with columns........................passed
+Then User registration shuld be successful..................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
