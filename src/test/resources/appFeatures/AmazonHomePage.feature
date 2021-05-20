@@ -23,10 +23,10 @@ Scenario: Amazon Today's Deal Section
 Scenario: Amazon Footer Link Section
 	Given user is Amazon home page
 	When user scrolls down to footer of the page
-	Then user gets all Country links
-	|Autralia|
-	|Brazil|
-	|China|
+#	Then user gets all Country links
+#	|Autralia|
+#	|Brazil|
+#	|China|
 #	And user gets all Amazon services links
 #	And User gets all privacy policy links
 	

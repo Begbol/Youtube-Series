@@ -51,12 +51,12 @@ public class AmazonHomePage {
 	public void user_scrolls_down_to_footer_of_the_page() {
 	}
 
-	@Then("user gets all Country links")
-	public void user_gets_all_country_links(DataTable dataTable) {
-		
-		List<List<String>> countryList = dataTable.asLists();
-		System.out.println(countryList);
-	}
+//	@Then("user gets all Country links")
+//	public void user_gets_all_country_links(DataTable dataTable) {
+//		
+//		List<List<String>> countryList = dataTable.asLists();
+//		System.out.println(countryList);
+//	}
 
 //	@Then("user gets all Amazon services links")
 //	public void user_gets_all_amazon_services_links(DataTable dataTable) {
