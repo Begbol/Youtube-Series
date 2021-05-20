@@ -24,9 +24,9 @@ Feature: Amazon Home Page
       #| Autralia |
       #| Brazil   |
       #| China    |
-    And user gets all Amazon services links
-      | Amazon Business     |
-      | Amazon Web Services |
-    And User gets all privacy policy links
-      | Privacy notice |
-      | Use & Sale     |
+    #And user gets all Amazon services links
+      #| Amazon Business     |
+      #| Amazon Web Services |
+    #And User gets all privacy policy links
+      #| Privacy notice |
+      #| Use & Sale     |

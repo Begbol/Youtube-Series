@@ -51,28 +51,28 @@ public class AmazonHomePage {
 	public void user_scrolls_down_to_footer_of_the_page() {
 	}
 
-//	@Then("user gets all Country links")
-//	public void user_gets_all_country_links(DataTable dataTable) {
+	@Then("user gets all Country links")
+	public void user_gets_all_country_links(DataTable dataTable) {
+		
+		List<List<String>> countryList = dataTable.asLists();
+		System.out.println(countryList);
+	}
+
+//	@Then("user gets all Amazon services links")
+//	public void user_gets_all_amazon_services_links(DataTable dataTable) {
+//
+//		List<List<String>> servicesList = dataTable.asLists();
+//		System.out.println(servicesList);
 //		
-//		List<List<String>> countryList = dataTable.asLists();
-//		System.out.println(countryList);
 //	}
 
-	@Then("user gets all Amazon services links")
-	public void user_gets_all_amazon_services_links(DataTable dataTable) {
-
-		List<List<String>> servicesList = dataTable.asLists();
-		System.out.println(servicesList);
-		
-	}
-
-	@Then("User gets all privacy policy links")
-	public void user_gets_all_privacy_policy_links(DataTable dataTable) {
-		
-		List<List<String>> policyList = dataTable.asLists();
-		System.out.println(policyList);
-		
-	}
+//	@Then("User gets all privacy policy links")
+//	public void user_gets_all_privacy_policy_links(DataTable dataTable) {
+//		
+//		List<List<String>> policyList = dataTable.asLists();
+//		System.out.println(policyList);
+//		
+//	}
 	
 	
 	

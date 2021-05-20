@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-20T17:00:49.286Z",
+        "start_timestamp": "2021-05-20T18:21:44.561Z",
         "line": 3,
         "name": "user registration with different data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2484000,
+              "duration": 1862000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1595000,
+              "duration": 1446000,
               "status": "passed"
             },
             "line": 5,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 225000,
+              "duration": 201000,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T17:00:49.405Z",
+        "start_timestamp": "2021-05-20T18:21:44.688Z",
         "line": 11,
         "name": "user registration with different data with columns",
         "description": "",
@@ -89,7 +89,7 @@
         "steps": [
           {
             "result": {
-              "duration": 414000,
+              "duration": 394000,
               "status": "passed"
             },
             "line": 12,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 2326000,
+              "duration": 2918000,
               "status": "passed"
             },
             "line": 13,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 226000,
+              "duration": 403000,
               "status": "passed"
             },
             "line": 18,

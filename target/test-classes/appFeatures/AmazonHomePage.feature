@@ -27,7 +27,7 @@ Scenario: Amazon Footer Link Section
 	|Autralia|
 	|Brazil|
 	|China|
-	And user gets all Amazon services links
-	And User gets all privacy policy links
+#	And user gets all Amazon services links
+#	And User gets all privacy policy links
 	
 	
