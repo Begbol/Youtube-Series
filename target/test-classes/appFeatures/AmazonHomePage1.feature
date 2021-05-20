@@ -17,9 +17,9 @@ Feature: Amazon Home Page
     And user gets product image and price details
     And user can see more products by clicking on carousel
 
-  Scenario: Amazon Footer Link Section
-    Given user is Amazon home page
-    When user scrolls down to footer of the page
+  #Scenario: Amazon Footer Link Section
+    #Given user is Amazon home page
+    #When user scrolls down to footer of the page
     #Then user gets all Country links
       #| Autralia |
       #| Brazil   |

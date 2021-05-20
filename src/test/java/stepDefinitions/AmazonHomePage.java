@@ -43,13 +43,13 @@ public class AmazonHomePage {
 	public void user_can_see_more_products_by_clicking_on_carousel() {
 	}
 
-	@Given("user is Amazon home page")
-	public void user_is_amazon_home_page() {
-	}
-
-	@When("user scrolls down to footer of the page")
-	public void user_scrolls_down_to_footer_of_the_page() {
-	}
+//	@Given("user is Amazon home page")
+//	public void user_is_amazon_home_page() {
+//	}
+//
+//	@When("user scrolls down to footer of the page")
+//	public void user_scrolls_down_to_footer_of_the_page() {
+//	}
 
 //	@Then("user gets all Country links")
 //	public void user_gets_all_country_links(DataTable dataTable) {
